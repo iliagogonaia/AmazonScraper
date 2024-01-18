@@ -1,7 +1,6 @@
 from bs4 import BeautifulSoup
 import requests
 import csv
-
 column_name = ['Name','Price', 'Rating']
 csvfile = open('movie_data.csv', 'w', newline='', encoding='utf-8') 
 csvwriter = csv.writer(csvfile)
